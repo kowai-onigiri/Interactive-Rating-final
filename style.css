@@ -1,0 +1,163 @@
+/* .attribution { 
+    font-size: 11px; 
+    text-align: center;
+    bottom: 0;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+body {
+    background-color: #1F2125;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 400px;
+    height: 380px;
+    background-color: #2B2E33;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    color: #CFCCCE;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.container {
+    margin: 30px;
+}
+
+.icon {
+    
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C4048;
+}
+
+.text {
+
+    padding: 20px 0px 20px 0px;
+}
+
+.header {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+.request {
+    padding-top: 20px;
+}
+
+#ratingBtns {
+  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.num {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #3C4048;
+    border: none;
+    color: #CFCCCE;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.num:hover {
+    background-color: #D0700F;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+.submit {
+    border-radius: 20px;
+    height: 40px;
+    width: 340px;
+    margin-top: 30px;
+    background-color: #D0700F;
+    border: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.submit:hover {
+    background-color: white;
+    color: #D0700F;
+    font-weight: bolder;
+}
+
+
+
+
+/* ******* SUBMIT PAGE ******** */
+
+.thanksCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0 10px 0;
+    padding: 10px 0px 10px 0px;
+    background-color:#3C4048;
+    border-radius: 20px;
+    width: 200px;
+    color: #D0700F;
+    font-weight: bold;
+}
+
+.thankYou {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 15px 0px 15px;
+    line-height: 24px;
+}
