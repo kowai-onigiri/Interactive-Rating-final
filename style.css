@@ -181,6 +181,7 @@ body {
     align-items: center;
 }
 .image {
+    padding-top: 5px;
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
@@ -191,20 +192,21 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 20px 0 10px 0;
-    padding: 10px 0px 10px 0px;
+    margin: 10px 0 5px 0;
+    padding: 5px 0px 5px 0px;
     background-color:#3C4048;
     border-radius: 20px;
     width: 200px;
     color: #D0700F;
     font-weight: bold;
+    font-size: 12px;
 }
 
 .thankYou {
     display: flex;
     justify-content: center;
-    padding: 10px 0px 0px 0px;
-    font-size: 36px;
+    padding: 5px 0px 0px 0px;
+    font-size: 18px;
     font-weight: bold;
     color: white;
 }
@@ -213,9 +215,10 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 10px 0px 10px 0px;
+    padding: 5px 0px 10px 0px;
     margin: 0px 15px 0px 15px;
-    line-height: 24px;
+    line-height: 18px;
+    font-size: 12px;
 }
 
 .attribution {
