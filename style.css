@@ -41,6 +41,39 @@
         flex-wrap: wrap;
     }
 
+    .selection {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 10px 0 5px 0;
+        padding: 5px 0px 5px 0px;
+        background-color:#3C4048;
+        border-radius: 20px;
+        width: 200px;
+        color: #D0700F;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .thankYou {
+        display: flex;
+        justify-content: center;
+        padding: 5px 0px 0px 0px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .message {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 5px 0px 10px 0px;
+        margin: 0px 15px 0px 15px;
+        line-height: 18px;
+        font-size: 12px;
+    }
+
 }
 
 
@@ -71,6 +104,37 @@
     .attribution {
         flex-direction: row;
         
+    }
+
+    .selection {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 10px 0 5px 0;
+        padding: 10px 0px 10px 0px;
+        background-color:#3C4048;
+        border-radius: 20px;
+        width: 200px;
+        color: #D0700F;
+        font-weight: bold;
+    }
+    
+    .thankYou {
+        display: flex;
+        justify-content: center;
+        padding: 5px 0px 0px 0px;
+        font-size: 36px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .message {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 0px 10px 0px;
+        margin: 0px 15px 0px 15px;
+        line-height: 24px;
     }
 }
 
@@ -188,38 +252,7 @@ body {
     
 }
 
-.selection {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 10px 0 5px 0;
-    padding: 5px 0px 5px 0px;
-    background-color:#3C4048;
-    border-radius: 20px;
-    width: 200px;
-    color: #D0700F;
-    font-weight: bold;
-    font-size: 12px;
-}
 
-.thankYou {
-    display: flex;
-    justify-content: center;
-    padding: 5px 0px 0px 0px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-}
-
-.message {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 5px 0px 10px 0px;
-    margin: 0px 15px 0px 15px;
-    line-height: 18px;
-    font-size: 12px;
-}
 
 .attribution {
     position: absolute;
