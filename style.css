@@ -36,6 +36,11 @@
         margin-top: 25px;
     }
 
+    .attribution {
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+
 }
 
 
@@ -62,11 +67,16 @@
         height: 40px;
         width: 340px;
     }
+
+    .attribution {
+        flex-direction: row;
+        
+    }
 }
 
 * {
     margin: 0;
-    padding: 0;;
+    padding: 0;
 }
 
 body {
@@ -206,4 +216,26 @@ body {
     padding: 10px 0px 10px 0px;
     margin: 0px 15px 0px 15px;
     line-height: 24px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #3C4048;
+    height: 30px;
+    align-self: center;
+    text-align: center;
+    border: 5px solid orange;
+    display: flex;
+    justify-content: center;
+}
+
+.challenge {
+    margin-right: 8px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #D0700F;
 }
