@@ -226,7 +226,6 @@ body {
     height: 30px;
     align-self: center;
     text-align: center;
-    border: 5px solid orange;
     display: flex;
     justify-content: center;
 }
