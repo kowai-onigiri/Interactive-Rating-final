@@ -1,14 +1,68 @@
-/* .attribution { 
-    font-size: 11px; 
-    text-align: center;
-    bottom: 0;
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-} */
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+@media (max-width:480px)  { 
+    .card {
+        max-width: 320px;
+        max-height: 300px;
+    }
+
+    .container {
+        margin: 20px;
+    }
+
+    .text {
+        padding: 10px 0 10px 0;
+    }
+
+    .num {
+        max-width: 40px;
+        max-height: 40px;
+    }
+
+    .header {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .request {
+        padding-top: 10px;
+        font-size: 13px;
+    }
+
+    .submit {
+        max-width: 280px;
+        max-height: 35px;
+        margin-top: 25px;
+    }
+
+}
+/* @media (min-width:480px)  { smartphones, Android phones, landscape iPhone } */
+
+
+@media (min-width: 481px) {
+    .container {
+        margin: 30px;
+    }
+
+    .text {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .header {
+        font-size: 28px;
+    }
+
+    .request {
+        padding-top: 20px;
+    }
+
+    .submit {
+        margin-top: 30px;
+        height: 40px;
+        width: 340px;
+    }
+}
 
 * {
     margin: 0;
@@ -36,9 +90,7 @@ body {
 
 }
 
-.container {
-    margin: 30px;
-}
+
 
 .icon {
     
@@ -51,20 +103,15 @@ body {
     background-color: #3C4048;
 }
 
-.text {
 
-    padding: 20px 0px 20px 0px;
-}
 
 .header {
-    font-size: 28px;
+    
     color: white;
     font-weight: bold;
 }
 
-.request {
-    padding-top: 20px;
-}
+
 
 #ratingBtns {
   
@@ -97,7 +144,6 @@ body {
     border-radius: 20px;
     height: 40px;
     width: 340px;
-    margin-top: 30px;
     background-color: #D0700F;
     border: none;
     color: white;
