@@ -238,3 +238,7 @@ body {
     text-decoration: none;
     color: #D0700F;
 }
+
+.activeBtnColor { /*When user click this class is added*/
+    background-color: #6C666A;
+}
